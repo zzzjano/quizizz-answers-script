@@ -89,7 +89,7 @@
                 tosend["code"] = code;
                 tosend["answers"] = $("#answers")[0].outerHTML;
                 socket.emit('share', tosend);
-                location.replace('https://quizizz.janoo.xyz/answers/' + code);
+                location.replace(window.location.origin + '/' + code);
             });
             renderMathInElement(document.body);
             $("#share").show();
