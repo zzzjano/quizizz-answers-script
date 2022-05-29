@@ -1,0 +1,49 @@
+.katex-display {
+    display: inline-block !important;
+    margin: 0 !important;
+}
+
+body {
+    font-size: 100%
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+
+.card-text {
+    color: greenyellow;
+}
+
+body.bg-dark,
+html.bg-dark {
+    background-color: #1c1f23 !important;
+    font-family: Helvetica;
+}
+
+img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50% !important;
+}
+
+#filter{
+        border: 1px solid #636669!important;
+    color: white!important;
+    width: 40%;
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    img {
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #filter {
+        width: 100% !important;
+    }
+}
+
